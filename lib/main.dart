@@ -1,8 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:hola/colors.dart';
+import 'package:hola/features/landing/screens/landing_screen.dart';
 import 'package:hola/firebase_options.dart';
 import 'package:hola/responsive/responsive_layout.dart';
+import 'package:hola/router.dart';
 import 'package:hola/screens/mobile_layout_screen.dart';
 import 'package:hola/screens/mobile_screen_layout.dart';
 import 'package:hola/screens/web_layout_screen.dart';
@@ -28,10 +30,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: backgroundColor,
       ),
-      home: const ResponsiveLayout(
-        mobileScreenLayout: MobileLayoutScreen(),
-        webScreenLayout: WebLayoutScreen(),
-      ),
+      onGenerateRoute: (settings) => generateRoute(settings),
+      home: const LandingScreen()
     );
   }
 }
