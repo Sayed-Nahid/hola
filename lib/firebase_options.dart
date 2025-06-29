@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD8kPHbh5g928XoheiiUbumKboOTGGgceE',
-    appId: '1:237702356479:android:055974e4c268a07549dbca',
-    messagingSenderId: '237702356479',
-    projectId: 'whatsapp-backend-f4024',
-    storageBucket: 'whatsapp-backend-f4024.firebasestorage.app',
+    apiKey: 'AIzaSyAiAloaLr6GL1w106XmX3Q6G2y65f9cBLc',
+    appId: '1:935108896316:android:f5256ee3090174e5e64539',
+    messagingSenderId: '935108896316',
+    projectId: 'hola-41233',
+    storageBucket: 'hola-41233.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAnnJUaLzxeiEw4A1tOgy7zoBc-ThaMbX0',
-    appId: '1:237702356479:ios:a202db92938c5a5349dbca',
-    messagingSenderId: '237702356479',
-    projectId: 'whatsapp-backend-f4024',
-    storageBucket: 'whatsapp-backend-f4024.firebasestorage.app',
+    apiKey: 'AIzaSyASOxSH4Ze_POtkjroXuMD-M9gwRcI3DXg',
+    appId: '1:935108896316:ios:5865a4fb8aa3ea88e64539',
+    messagingSenderId: '935108896316',
+    projectId: 'hola-41233',
+    storageBucket: 'hola-41233.firebasestorage.app',
     iosBundleId: 'com.example.hola',
   );
 }

@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "237702356479",
-    "project_id": "whatsapp-backend-f4024",
-    "storage_bucket": "whatsapp-backend-f4024.firebasestorage.app"
+    "project_number": "935108896316",
+    "project_id": "hola-41233",
+    "storage_bucket": "hola-41233.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:237702356479:android:055974e4c268a07549dbca",
+        "mobilesdk_app_id": "1:935108896316:android:f5256ee3090174e5e64539",
         "android_client_info": {
           "package_name": "com.example.hola"
         }
@@ -15,26 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD8kPHbh5g928XoheiiUbumKboOTGGgceE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:237702356479:android:ea87abe0af2a8e5d49dbca",
-        "android_client_info": {
-          "package_name": "com.example.whatsapp_ui"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD8kPHbh5g928XoheiiUbumKboOTGGgceE"
+          "current_key": "AIzaSyAiAloaLr6GL1w106XmX3Q6G2y65f9cBLc"
         }
       ],
       "services": {
